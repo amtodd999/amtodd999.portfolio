@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angie's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Raleway:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!--Landing-->
+    <div class="landing-container">
+        <nav id="navbar" class="no-header">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#navbar">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#about-me-section">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#project-section">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#contact-section">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="landing">
+            <h1 id="intro"></h1>
+            <h3 id="slogan"></h3>
+        </div>
+    </div>
+
+    <!--About Me-->
+    <div class="container" id="about-me-section">
+        <div class="about-wrapper">
+            <h1 id="about-header">About Me</h1>
+            <div id="about-text">I'm a Midwest girl; born and raised in Michigan and now living in Indiana.
+                I have worked in the Information Technology industry for almost 10 years as a Software Quality Analyst.
+                My job was to try and break code, but now I want to write it. Testing has given me insight into what
+                works for users and what doesn't.
+                I have attended web development courses, learning CSS, HTML, and Javascript.
+                I want to use what I have learned to build you a quality site with a superior user experience.<br>
+                <a href="assets/Resume.docx">Download my resume</a>
+            </div>
+            <div id="pic">
+                <img id="avatar" src="assets/Avatar_lg.png">
+            </div>
+        </div>
+    </div>
+    <!--Cards/Projects-->
+    <div class="background-card card text-center">
+        <div class="card-header" id="project-section">
+            My Projects
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <a href="https://codepen.io/amtodd999/full/gOgPxwj" target="_blank">
+                        <img id="css-creature" src="assets/CSS_Creature.png">
+                    </a>
+                </div>
+                <article class="col-3">
+                    <a href="https://codepen.io/amtodd999/full/gOgPxwj" target="_blank">
+                        <h4 style="text-decoration: underline;">CSS Creature</h4>
+                    </a>
+                    <p>A CodePen creation of a bunny using only CSS. Basic animations were included.</p>
+                </article>
+            </div>
+            <div class="row">
+                <article class="col-3">
+                    <a href="https://amtodd999.github.io/" target="_blank">
+                        <h4 style="text-decoration: underline;">Static Site</h4>
+                    </a>
+                    <p>A static recreation of an existing Harry Potter website using HTML and CSS.</p>
+                </article>
+                <div class="col-5">
+                    <a href="https://amtodd999.github.io/" target="_blank">
+                        <img id="hp-static" src="assets/HP_Logo.png">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <a href="https://cat-facts-b7ca1.firebaseapp.com/" target="_blank">
+                        <img id="cat-api" src="http://placekitten.com/550/380">
+                    </a>
+                </div>
+                <article class="col-3">
+                    <a href="https://cat-facts-b7ca1.firebaseapp.com/" target="_blank">
+                        <h4 style="text-decoration: underline;">Cat Facts API</h4>
+                    </a>
+                    <p>Built a simple app that obtains a random cat fact from one api and a cute cat photo from another
+                        api</p>
+                </article>
+            </div>
+            <div class="row">
+                <article class="col-3">
+                    <a href="https://amtodd-giphy-api.web.app/" target="_blank">
+                        <h4 style="text-decoration: underline;">Giphy API</h4>
+                    </a>
+                    <p>A static recreation of an existing Harry Potter website using HTML and CSS.</p>
+                </article>
+                <div class="col-5">
+                    <a href="https://amtodd-giphy-api.web.app/" target="_blank">
+                        <img id="hp-static" src="assets/giphy_logo.png">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <img id="" src="assets/Coming_Soon.jpg">
+                </div>
+                <article class="col-3">
+                    <h4 style="text-decoration: underline;">TBD</h4>
+                    <p>This will be included once the projects is completed in blue badge</p>
+                </article>
+            </div>
+            <div class="row">
+                <article class="col-3">
+                    <h4 style="text-decoration: underline;">TBD</h4>
+                    <p>This will be included once the projects is completed in blue badge.</p>
+                </article>
+                <div class="col-5">
+                    <img id="hp-static" src="assets/Coming_Soon.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--contact me-->
+    <div class="contact-container">
+        <h1 style="text-decoration: underline;" id="contact-section">Contact Me</h1>
+        <form action="https://formspree.io/f/mayaqdgk" method="POST">
+            <input class="single-text" type="text" placeholder="First Name"><br>
+            <input class="single-text" type="text" placeholder="Last Name"><br>
+            <input class="single-text" type="text" placeholder="Email Address"><br>
+            <input class="single-text" type="text" placeholder="Phone Number"><br>
+            <textarea id="message-text" name="message" placeholder="Message"></textarea><br>
+            <button type="submit" id="form-button">Submit</button>
+        </form>
+        <div class="social-row">
+            <h3 style="text-decoration: underline;">Or find me on social media</h3>
+            <a href="https://www.facebook.com/angie.lipp.9" target="_blank"><img
+                    src="assets/iconfinder_square-facebook_317727.svg"></a>
+            <a href="https://www.linkedin.com/in/angela-todd-32a566187/" target="_blank"><img
+                    src="assets/iconfinder_square-linkedin_317725.svg"></a>
+            <div class="home-arrow">
+                <a href="#navbar"><img src="assets/iconfinder_up_4829875.svg"></a>
+                <span class="tooltip-text">Return to top</span>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer>
+        <p class="footer">Copyright &copy; Angela Todd</p>
+    </footer>
+
+    <script type="text/javascript" src="portfolio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angie's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Raleway:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Angela Todd</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+    <!--Landing-->
+    <div class="landing-container">
+        <nav id="navbar" class="no-header">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Disabled</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="landing">
+            <h1 id="intro"></h1>
+            <h3 id="slogan"></h3>
+        </div>
+    </div>
+    <!--Cards/Projects-->
+    <div class="card text-center">
+        <div class="card-header">
+            My Projects
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <img id="css-creature" src="assets/CSS_Creature.png">
+                </div>
+                <article class="col-3">
+                    <h4>CSS Creature</h4>
+                    <p>A CodePen creation of a bunny using only CSS. Basic animations were included.</p>
+                </article>
+            </div>
+            <div class="row">
+                <article class="col-3">
+                    <h4>Static Site</h4>
+                    <p>A static recreation of an existing Harry Potter website using HTML and CSS.</p>
+                </article>
+                <div class="col-5">
+                    <img id="hp-static" src="assets/HP_Logo.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <img id="cat-api" src="http://placekitten.com/550/380">
+                </div>
+                <div class="col-3">
+                    <article class="col-3">
+                        <h4></h4>
+                        <p></p>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <article class="col-3">
+                        <h4></h4>
+                        <p></p>
+                    </article>
+                </div>
+                <div class="col-5">
+                    <img id="giphy_api" src="assets/giphy_logo.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <img id="blue-tbd1" src="assets/Coming_Soon.jpg">
+                </div>
+                <div class="col-3">
+                    <article class="col-3">
+                        <h4></h4>
+                        <p></p>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <article class="col-3">
+                        <h4></h4>
+                        <p></p>
+                    </article>
+                </div>
+                <div class="col-5">
+                    <img id="blue-tbd1" src="assets/Coming_Soon.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--contact me-->
+    <!--About Me-->
+    <div class="container">
+        <div class="about-wrapper">
+            <h1 id="about-header">About Me</h1>
+            <div id="about-text">There's not a thing in the world wrong with washing your brush. This is probably the
+                greatest thing that's ever happened in my life. If we're going to have animals around we all have to be
+                concerned about them and take care of them. Follow the lay of the land. It's most important. Maybe there
+                was an old trapper that lived out here and maybe one day he went to check his beaver traps, and maybe he
+                fell into the river and drowned. The secret to doing anything is believing that you can do it. Anything
+                that you believe you can do strong enough, you can do. Anything. As long as you believe</div>
+            <div id="pic">
+                <img id="avatar" src="assets/Avatar_lg.png">
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="portfolio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
