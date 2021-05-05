@@ -1,16 +1,19 @@
-var firstHi = "Hi. My name is Angie.";
-var hi = firstHi.split("");
-var typing = document.getElementById("intro");
-var firstSlogan = "Let's make a website";
-var slogan = firstSlogan.split("");
-var typing2 = document.getElementById("slogan");
+let firstHi = "Hi. My name is Angie.";
+let hi = firstHi.split("");
+let typing = document.getElementById("intro");
+let firstSlogan = "Let's make a website";
+let slogan = firstSlogan.split("");
+let typing2 = document.getElementById("slogan");
+let formBtn = document.getElementById("form-button");
+let contactForm = document.getElementById("contact-form");
+
 
 
 function animateSlogan() {
     if (slogan.length > 0) {
         typing2.innerHTML += slogan.shift()
         setTimeout(animateSlogan, 90);
-    } console.log(`here`);
+    }
 };
 
 function animateHi() {
@@ -23,4 +26,9 @@ function animateHi() {
 };
 animateHi();
 
+contactForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    contactForm.submit();
+    contactForm.reset();
+})
 
