@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Raleway:wght@300&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!--https://michalsnik.github.io/aos/-->
     <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -31,14 +32,14 @@
                 </li>
             </ul>
         </nav>
-        <div class="landing">
+        <div class="landing" data-aos="fade-up" data-aos-duration="3000">
             <h1 id="intro"></h1>
             <h3 id="slogan"></h3>
         </div>
     </div>
 
     <!--About Me-->
-    <div class="container" id="about-me-section">
+    <div class="container" id="about-me-section" data-aos="fade-up" data-aos-duration="2000">
         <div class="about-wrapper">
             <h1 id="about-header">About Me</h1>
             <div id="about-text">My name is Angela Todd, but I like to go by Angie. I'm a Midwest girl - born and raised in Michigan and now living in Indiana.
@@ -54,11 +55,11 @@
     </div>
     <!--Cards/Projects-->
     <div class="background-card card text-center">
-        <div class="card-header" id="project-section">
+        <div class="card-header" id="project-section" id="about-me-section" data-aos="fade-up" data-aos-duration="2000">
             My Projects
         </div>
-        <div class="container">
-            <div class="row">
+        <div class="container" id="about-me-section" data-aos="fade-up" data-aos-duration="2000">
+            <div class="row" id="about-me-section" data-aos="fade-up" data-aos-duration="2000">
                 <div class="col-5">
                     <a href="https://codepen.io/amtodd999/full/gOgPxwj" target="_blank">
                         <img id="css-creature" src="assets/CSS_Creature.png">
@@ -71,7 +72,7 @@
                     <p>A CodePen creation of a bunny using only CSS. Basic animations were included.</p>
                 </article>
             </div>
-            <div class="row">
+            <div class="row" id="about-me-section" data-aos="fade-up" data-aos-duration="2000">
                 <article class="col-3">
                     <a href="https://amtodd999.github.io/" target="_blank">
                         <h4 style="text-decoration: underline;">Static Site</h4>
@@ -84,7 +85,7 @@
                     </a>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="about-me-section" data-aos="fade-up" data-aos-duration="2000">
                 <div class="col-5">
                     <a href="https://cat-facts-b7ca1.firebaseapp.com/" target="_blank">
                         <img id="cat-api" src="http://placekitten.com/550/380">
@@ -98,7 +99,7 @@
                         api</p>
                 </article>
             </div>
-            <div class="row">
+            <div class="row" id="about-me-section" data-aos="fade-up" data-aos-duration="2000">
                 <article class="col-3">
                     <a href="https://amtodd-giphy-api.web.app/" target="_blank">
                         <h4 style="text-decoration: underline;">Giphy API</h4>
@@ -111,7 +112,7 @@
                     </a>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="about-me-section" data-aos="fade-up" data-aos-duration="2000">
                 <div class="col-5">
                     <img id="" src="assets/Coming_Soon.jpg">
                 </div>
@@ -120,7 +121,7 @@
                     <p>This will be included once the projects is completed in blue badge</p>
                 </article>
             </div>
-            <div class="row">
+            <div class="row" id="about-me-section" data-aos="fade-up" data-aos-duration="2000">
                 <article class="col-3">
                     <h4 style="text-decoration: underline;">TBD</h4>
                     <p>This will be included once the projects is completed in blue badge.</p>
@@ -132,7 +133,7 @@
         </div>
     </div>
     <!--contact me-->
-    <div class="contact-container">
+    <div class="contact-container" data-aos="fade-zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic">
         <h1 style="text-decoration: underline;" id="contact-section">Contact Me</h1>
         <form action="https://formspree.io/f/mayaqdgk" method="POST" id="contact-form">
             <input class="single-text" type="text" placeholder="First Name"><br>
@@ -168,6 +169,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
         integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 
 </html>
